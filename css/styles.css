@@ -1,0 +1,141 @@
+body {
+  /* background-color: #a7d7c5; */
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #eeeeee;
+  margin: 50px auto 0 auto;
+  font-family: 'Caveat', cursive;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #b55400;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #b55400;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #222831 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #222831;
+  position: relative;
+  padding-top: 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coffee-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #393e46;
+}
+
+.div-footer {
+  padding: 50px 0;
+}
+
+.footer-link {
+  padding: 10px 30px;
+  color: #b55400;
+}
+
+.copyright {
+  color: #b55400;
+  padding-bottom: 30px;
+  position: relative;
+  bottom: 20px;
+  font-size: 0.75rem;
+}
+
+.butn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  background: #b55400;
+  padding: 10px 27px 10px 27px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #222831;
+  text-decoration: none;
+}
